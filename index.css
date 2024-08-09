@@ -222,7 +222,7 @@ ul {
     }
 
     #headers {
-        background-position-y: 25%;
+        background-position-y: 25% !important;
     }
 
     .header-titles {
