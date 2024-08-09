@@ -140,6 +140,21 @@ ul {
     color: white;
 }
 
+@media(max-width: 1080px) {
+
+    #header {
+        background-position-y: 0%;
+    }
+
+    .nav-item a {
+        color: white;
+    }
+
+    .header-titles {
+        margin-top: 75%;
+        margin-left: 10%;
+    }
+}
 
 @media (max-width: 756px) {
 
@@ -212,21 +227,5 @@ ul {
 
     .header-titles {
         margin-top: 85%;
-    }
-}
-
-@media(max-width: 1080px) {
-
-    #header {
-        background-position-y: 0%;
-    }
-
-    .nav-item a {
-        color: white;
-    }
-
-    .header-titles {
-        margin-top: 75%;
-        margin-left: 10%;
     }
 }
