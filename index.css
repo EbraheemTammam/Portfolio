@@ -158,13 +158,21 @@ ul {
 
 @media (max-width: 756px) {
 
-    .nav-toggle {
+    #header {
         display: block;
+        padding-left: 0;
+        padding-top: 0;
+        background-position-y: 25%;
     }
 
-    .hamburger::after,
-    .hamburger::before {
-        background-color: #542120;
+    .navbar {
+        padding-top: 0;
+        margin-top: 0;
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        background-color: white;
     }
 
     .nav-list {
@@ -184,6 +192,18 @@ ul {
         display: flex;
     }
 
+    .nav-toggle {
+        display: block;
+        margin-top: 40px;
+        margin-left: 30px;
+        align-self: flex-start;
+    }
+
+    .hamburger::after,
+    .hamburger::before {
+        background-color: #542120;
+    }
+
     .nav-item a {
         color: #542120 !important;
         background-color: white;
@@ -191,22 +211,6 @@ ul {
 
     .nav-item a:hover {
         color: #ffcc00 !important;
-    }
-
-    #header {
-        display: block;
-        padding-left: 0;
-        padding-top: 0;
-        background-position-y: 25%;
-    }
-
-    .navbar {
-        padding-top: 0;
-        margin-top: 0;
-    }
-
-    .hamburger {
-        background-color: white;
     }
 
     .my-name {
