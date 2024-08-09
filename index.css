@@ -210,15 +210,15 @@ ul {
 @media(max-width: 1080px) {
 
     #header {
-        background-position-y: 10%;
+        background-position-y: 0%;
     }
 
-    a.color-white {
-        color: #542120 !important;
+    .nav-item a {
+        color: white;
     }
 
     .header-titles {
-        margin-top: 85%;
+        margin-top: 75%;
         margin-left: 10%;
     }
 }
