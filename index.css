@@ -50,7 +50,7 @@ ul {
 .header-titles {
     order: 2;
     align-self: flex-start;
-    margin-left: 150px;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
 }
@@ -113,6 +113,7 @@ ul {
     font-size: 5em;
     font-weight: bold;
     margin: 20px 0;
+    margin-left: 20px;
     color: #542120;
     transition: color 0.3s ease;
 }
@@ -134,14 +135,6 @@ ul {
 
 
 @media (max-width: 756px) {
-    /* .my-name {
-        color: white;
-    }
-
-    .description {
-        background-color: white;
-        color: #542120;
-    } */
 
     .nav-toggle {
         display: block;
@@ -157,7 +150,7 @@ ul {
         width: 100%;
         display: none;
         position: absolute;
-        margin-top: 70%;
+        margin-top: 110%;
         left: 0;
         background-color: white;
         padding: 10px 0;
@@ -178,12 +171,36 @@ ul {
         color: #ffcc00 !important;
     }
 
-    .header {
+    #header {
         display: block;
+        padding-left: 0;
+        padding-top: 0;
+        background-position-y: 25%;
+    }
+
+    .navbar {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .hamburger {
+        background-color: white;
     }
 
     .header-titles {
-        margin-top: 90%;
-        margin-left: 15%;
+        margin-top: 85%;
+        margin-left: 10%;
+    }
+
+    .my-name {
+        font-size: 3em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+
+    .base-line {
+        font-size: 1.5em;
     }
 }
