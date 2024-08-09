@@ -210,10 +210,10 @@ ul {
 @media(max-width: 1080px) {
 
     #header {
-        background-position-y: 20%;
+        background-position-y: 10%;
     }
 
-    .nav-item.color-white {
+    a.color-white {
         color: #542120 !important;
     }
 
