@@ -205,6 +205,14 @@ ul {
     .base-line {
         font-size: 1.5em;
     }
+
+    #headers {
+        background-position-y: 25%;
+    }
+
+    .header-titles {
+        margin-top: 85%;
+    }
 }
 
 @media(max-width: 1080px) {
