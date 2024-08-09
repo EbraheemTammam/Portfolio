@@ -95,7 +95,6 @@ ul {
 
 .nav-item a {
     text-decoration: none;
-    color: #542120;
     padding: 10px 15px;
     font-size: 1.5em;
     transition: color 0.3s ease;
@@ -114,15 +113,12 @@ ul {
     font-weight: bold;
     margin: 20px 0;
     margin-left: 20px;
-    color: #542120;
     transition: color 0.3s ease;
 }
 
 .description {
     padding: 20px;
     align-self: flex-start;
-    background-color: #542120;
-    color: white;
     border-radius: 20px;
     transition: color 0.3s ease;
 }
@@ -130,7 +126,18 @@ ul {
 .base-line {
     margin-left: 20px;
     align-self: flex-start;
+}
+
+.color-main {
     color: #542120;
+}
+
+.background-color-main {
+    background-color: #542120;
+}
+
+.color-white {
+    color: white;
 }
 
 
@@ -187,11 +194,6 @@ ul {
         background-color: white;
     }
 
-    .header-titles {
-        margin-top: 85%;
-        margin-left: 10%;
-    }
-
     .my-name {
         font-size: 3em;
     }
@@ -202,5 +204,17 @@ ul {
 
     .base-line {
         font-size: 1.5em;
+    }
+}
+
+@media(max-width: 1080px) {
+
+    .color-white {
+        color: #542120 !important;
+    }
+
+    .header-titles {
+        margin-top: 85%;
+        margin-left: 10%;
     }
 }
