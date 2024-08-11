@@ -1,0 +1,142 @@
+:root {
+    --main-color-light: #542120;
+}
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Start Header */
+header {
+    background-image: url("images/header-image.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 85% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* Start Navbar */
+.navbar {
+    width: 100% !important;
+    height: 15%;
+    display: block !important;
+}
+.nav-item a {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+}
+.nav-item a:hover {
+    color: #007bff !important;
+}
+/* End Navbar */
+/* Start Header Titles */
+.header-titles {
+    display: block !important;
+}
+.my-name h1 {
+    font-size: 5em;
+    font-weight: bold;
+}
+.description h2 {
+    border-radius: 20px;
+    width: fit-content;
+}
+/* End Header Lines */
+/* End Header */
+.text-white {
+    color: white !important;
+}
+.color-main {
+    color: var(--main-color-light);
+}
+.background-color-main {
+    background-color: var(--main-color-light);
+}
+.color-white {
+    color: white;
+}
+/* Med Screen */
+@media(max-width: 1080px) {
+    /* Start Header */
+    header {
+        background-position-y: 0%;
+    }
+    /* Start Navbar */
+    .nav-item a {
+        color: white;
+    }
+    /* End Navbar */
+    /* Start Header Titles */
+    .header-titles {
+        margin: 75% !important;
+        margin-left: 20% !important;
+    }
+    /* End Header Titles */
+    /*End Header */
+}
+/* Small Screen */
+@media (max-width: 767px) {
+    /* Start Header */
+    header {
+        background-position-y: 25%;
+    }
+    /* Start Navbar */
+    .navbar {
+        padding-top: 0px !important;
+        /* margin-top: 10px !important; */
+    }
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        margin-top: 3% !important;
+        margin-left: 0% !important;
+        left: 0;
+        background-color: white;
+        padding: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+    .nav-item {
+        padding-top: 10px !important;
+    }
+    .nav-item a {
+        color: var(--main-color-light) !important;
+        background-color: white;
+    }
+    .nav-item a:hover {
+        color: #ffcc00 !important;
+    }
+    /* End Navbar */
+    /* Start Header Titles */
+    .header-titles {
+        margin-left: 2rem !important;
+        margin-top: 85% !important;
+    }
+    .my-name h1 {
+        font-size: 4em;
+    }
+    .description h2 {
+        font-size: 1.2em;
+    }
+    .base-line h1 {
+        font-size: 2em;
+    }
+    /* End Header Titles */
+    /* End Header */
+}
