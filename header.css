@@ -77,6 +77,9 @@ header {
         background-position-y: 0%;
     }
     /* Start Navbar */
+    .navbar-toggler {
+        background-color: white !important;
+    }
     .nav-item a {
         color: white;
     }
@@ -93,7 +96,7 @@ header {
 @media (max-width: 767px) {
     /* Start Header */
     header {
-        background-position-y: 25%;
+        background-position-y: 17%;
     }
     /* Start Navbar */
     .navbar {
