@@ -1,5 +1,18 @@
 /* Start Main */
 
 main {
-    margin-top: 10%;
+    margin-top: 10rem;
+    margin-left: 2rem !important;
+}
+/* Med Screen */
+@media (max-width: 1080px) {
+    main {
+        margin-top: 55rem ;
+    }
+}
+/* Small Screen */
+@media (max-width: 767px) {
+    main {
+        margin-top: 20rem;
+    }
 }

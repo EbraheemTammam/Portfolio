@@ -10,11 +10,11 @@
 
 html, body {
     height: 100%;
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 body {
-    display: flex;
     flex-direction: column;
 }
 
@@ -58,6 +58,17 @@ header {
 }
 /* End Header Lines */
 /* End Header */
+/* Start Landing */
+.landing {
+    margin-top: 5.3%;
+    height: 18%;
+    border-bottom: 3px solid #542120;
+}
+.base-line {
+    width: 48% !important;
+    padding-top: 2.5%;
+}
+/* End Landing */
 .text-white {
     color: white !important;
 }
@@ -86,11 +97,24 @@ header {
     /* End Navbar */
     /* Start Header Titles */
     .header-titles {
-        margin: 75% !important;
-        margin-left: 20% !important;
+        margin-top: 75% !important;
+        padding-left: 7rem !important;
     }
     /* End Header Titles */
     /*End Header */
+    /* Start Landing */
+    .landing {
+        margin-top: 10%;
+        border-bottom: 0px;
+    }
+    .base-line {
+        padding: 5%;
+        width: 50% !important;
+    }
+    .base-line.second-half {
+        border-bottom: 3px solid #542120;
+    }
+    /* End Landing */
 }
 /* Small Screen */
 @media (max-width: 767px) {
@@ -128,8 +152,8 @@ header {
     /* End Navbar */
     /* Start Header Titles */
     .header-titles {
-        margin-left: 2rem !important;
         margin-top: 85% !important;
+        padding-left: 4rem !important;
     }
     .my-name h1 {
         font-size: 4em;
@@ -142,4 +166,18 @@ header {
     }
     /* End Header Titles */
     /* End Header */
+    /* Start Landing */
+    .landing {
+        flex-direction: column;
+    }
+    .base-line {
+        width: 100% !important;
+    }
+    .base-line.first-half {
+        text-align: left !important;
+    }
+    .base-line.second-half {
+        text-align: right !important;
+    }
+    /* End Landing */
 }
