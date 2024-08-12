@@ -7,7 +7,7 @@ main {
 /* Med Screen */
 @media (max-width: 1080px) {
     main {
-        margin-top: 40rem !important;
+        margin-top: 33rem !important;
     }
 }
 /* Small Screen */
