@@ -98,7 +98,6 @@ header {
     /* Start Header Titles */
     .header-titles {
         margin-top: 75% !important;
-        padding-left: 7rem !important;
     }
     /* End Header Titles */
     /*End Header */
@@ -118,10 +117,7 @@ header {
 }
 /* Small Screen */
 @media (max-width: 767px) {
-    /* Start Header */
-    header {
-        background-position-y: 17%;
-    }
+    /* Start Header */ */
     /* Start Navbar */
     .navbar {
         padding-top: 0px !important;
@@ -152,8 +148,8 @@ header {
     /* End Navbar */
     /* Start Header Titles */
     .header-titles {
-        margin-top: 85% !important;
-        padding-left: 4rem !important;
+        margin-top: 75% !important;
+        padding-left: 2rem !important;
     }
     .my-name h1 {
         font-size: 4em;
