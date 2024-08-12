@@ -2,7 +2,6 @@
 
 main {
     margin-top: 10rem;
-    margin-left: 2rem !important;
 }
 /* Med Screen */
 @media (max-width: 1080px) {
