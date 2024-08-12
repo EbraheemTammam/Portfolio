@@ -20,6 +20,7 @@ body {
 
 /* Start Header */
 header {
+    order: 1;
     background-image: url("images/header-image.png");
     background-size: contain;
     background-position: right;
