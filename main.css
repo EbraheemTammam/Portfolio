@@ -6,12 +6,12 @@ main {
 /* Med Screen */
 @media (max-width: 1080px) {
     main {
-        margin-top: 55rem ;
+        margin-top: 40rem;
     }
 }
 /* Small Screen */
 @media (max-width: 767px) {
     main {
-        margin-top: 20rem;
+        margin-top: 25rem;
     }
 }
