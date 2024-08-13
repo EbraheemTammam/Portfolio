@@ -33,6 +33,9 @@ main section div h1 {
     .second-element {
         width: 100% !important;
     }
+    main section div h1 {
+        font-size: 3rem !important;
+    }
     #education {
         flex-direction: column-reverse;
     }
