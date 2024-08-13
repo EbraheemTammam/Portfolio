@@ -2,14 +2,32 @@
 
 main {
     order: 2;
-    margin-top: 10rem;
+}
+
+main section {
+    margin-right: 0 !important;
+}
+
+.first-element {
+    padding: 10% !important;
+    width: 48.1% !important;
+}
+.second-element {
+    padding: 10% !important;
+    width: 51.9% !important;
 }
 /* Med Screen */
 @media (max-width: 1080px) {
-    main {
-        margin-top: 30rem !important;
-    }
 }
 /* Small Screen */
 @media (max-width: 767px) {
+    section {
+        flex-direction: column;
+    }
+    .first-element {
+        width: 100% !important;
+    }
+    .second-element {
+        width: 100% !important;
+    }
 }

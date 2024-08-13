@@ -29,6 +29,7 @@ header {
     max-width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
+    margin-bottom: 8% !important;
 }
 /* Start Navbar */
 .navbar {
@@ -61,13 +62,18 @@ header {
 /* End Header */
 /* Start Landing */
 .landing {
-    margin-top: 5.3%;
+    margin-top: 4.8%;
     height: 18%;
-    border-bottom: 3px solid #542120;
+    /* border-bottom: 3px solid #542120; */
 }
 .base-line {
-    width: 48% !important;
     padding-top: 2.5%;
+}
+.base-line.first-half {
+    width: 47.95% !important;
+}
+.base-line.second-half {
+    width: 52.05%;
 }
 /* End Landing */
 .text-white {
@@ -105,20 +111,23 @@ header {
     /* Start Landing */
     .landing {
         margin-top: 10%;
-        border-bottom: 0px;
+        /* border-bottom: 0px; */
     }
     .base-line {
         padding: 5%;
         width: 50% !important;
     }
-    .base-line.second-half {
-        border-bottom: 3px solid #542120;
+    .base-line.first-half {
+        border-top: 3px solid #542120;
     }
     /* End Landing */
 }
 /* Small Screen */
 @media (max-width: 767px) {
-    /* Start Header */ */
+    /* Start Header */
+    header {
+        margin-bottom: 98.5% !important;
+    }
     /* Start Navbar */
     .navbar {
         padding-top: 0px !important;
@@ -167,13 +176,12 @@ header {
     .landing {
         flex-direction: column;
     }
-    .base-line {
-        width: 100% !important;
-    }
     .base-line.first-half {
+        width: 100% !important;
         text-align: left !important;
     }
     .base-line.second-half {
+        width: 100% !important;
         text-align: right !important;
     }
     /* End Landing */
