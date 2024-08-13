@@ -10,12 +10,20 @@ main section div h1 {
     font-size: 5rem;
 }
 .first-element {
-    padding: 10% !important;
+    padding: 5% !important;
     width: 48.1% !important;
 }
 .second-element {
-    padding: 10% !important;
+    padding: 5% !important;
     width: 51.9% !important;
+}
+ul {
+    list-style: none;
+}
+hr {
+    height: 3px !important;
+    color:  #542120;
+    opacity: 100%;
 }
 /* End Section */
 /* End Main */
@@ -41,5 +49,14 @@ main section div h1 {
     }
     #participations {
         flex-direction: column-reverse;
+    }
+    .list-element {
+        display: block !important;
+    }
+    .list-element label {
+        width: 100% !important;
+    }
+    .progress {
+        width: 80% !important;
     }
 }

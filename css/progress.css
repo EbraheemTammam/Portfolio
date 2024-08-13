@@ -1,0 +1,110 @@
+/* Basic progress bar setup */
+.progress {
+    position: relative;
+    width: 100%;
+    height: 35px !important;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    position: relative;
+    width: 0%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+/* Wave effect */
+.wave {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #439cfc;
+    border-radius: 40%;
+    top: -75%;
+    left: 0;
+    animation: wave-animation 5s infinite linear;
+}
+
+/* Keyframes for wave movement */
+@keyframes wave-animation {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+/* Bubbles */
+.progress-bar::before, .progress-bar::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    animation: bubble-animation 3s infinite;
+}
+
+.progress-bar::before {
+    left: 20%;
+    animation-delay: 1s;
+}
+
+.progress-bar::after {
+    left: 50%;
+    animation-delay: 2s;
+}
+
+/* Keyframes for bubble animation */
+@keyframes bubble-animation {
+    0% {
+        bottom: 0;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        bottom: 80%;
+        opacity: 0.5;
+        transform: translateY(-10px);
+    }
+    100% {
+        bottom: 100%;
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.fifty {
+    width: 50%;
+}
+.fifty-five {
+    width: 55%;
+}
+.sixty {
+    width: 60%;
+}
+.sixty-five {
+    width: 65%;
+}
+.seventy {
+    width: 70%;
+}
+.seventy-five {
+    width: 75%;
+}
+.eighty {
+    width: 80%;
+}
+.eighty-five {
+    width: 85%;
+}
+.ninety {
+    width: 90%;
+}
+.ninety-five {
+    width: 95%;
+}
+.hundred {
+    width: 100%;
+}
