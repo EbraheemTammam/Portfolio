@@ -1,13 +1,14 @@
 /* Start Main */
-
 main {
     order: 2;
 }
-
+/* Start Section */
 main section {
     margin-right: 0 !important;
 }
-
+main section div h1 {
+    font-size: 5rem;
+}
 .first-element {
     padding: 10% !important;
     width: 48.1% !important;
@@ -16,6 +17,8 @@ main section {
     padding: 10% !important;
     width: 51.9% !important;
 }
+/* End Section */
+/* End Main */
 /* Med Screen */
 @media (max-width: 1080px) {
 }
@@ -29,5 +32,11 @@ main section {
     }
     .second-element {
         width: 100% !important;
+    }
+    #education {
+        flex-direction: column-reverse;
+    }
+    #participations {
+        flex-direction: column-reverse;
     }
 }
