@@ -1,0 +1,91 @@
+/* Start Landing */
+.landing {
+    padding: 3rem;
+}
+.my-name h1 {
+    font-size: 500%;
+    font-weight: bold;
+}
+.description h2 {
+    border-radius: 20px;
+    width: fit-content;
+}
+.icon-holder {
+    width: 10rem !important;
+    height: 10rem !important;
+    margin: 2rem;
+    padding: 2rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+.icon {
+    width: 100%;
+    height: 100%;
+}
+.pivot-row {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.pivot-column {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+/* End Landing */
+/* Med Screen */
+@media(max-width: 67.5em) {
+    /* Start Landing */
+    .icon-holder {
+        width: 6rem !important;
+        height: 6rem !important;
+        margin: 1rem;
+        padding: 1rem;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    /* End Landing */
+}
+/* Small Screen */
+@media (max-width: 47.9375em) {
+    /* Start Landing */
+    .landing {
+        padding: 1rem;
+    }
+    .my-name h1 {
+        font-size: 4em;
+    }
+    .description h2 {
+        font-size: 1.2em;
+    }
+    .base-line h1 {
+        font-size: 2em;
+    }
+    .titles {
+        width: 100% !important;
+    }
+    .description {
+        justify-content: center;
+    }
+    .figure {
+        width: 100% !important;
+    }
+    .icon-holder {
+        width: 6rem !important;
+        height: 6rem !important;
+        margin: 1rem;
+        padding: 1rem;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .fun-line {
+        flex-direction: column;
+    }
+    .fun-line .first-part {
+        text-align: start !important;
+        padding-left: 1.5rem;
+    }
+    .fun-line .second-part {
+        text-align: end !important;
+        padding-right: 1.5rem;
+    }
+    /* End Landing */
+}

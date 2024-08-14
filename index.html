@@ -7,7 +7,9 @@
         <meta name="description" content="Portfolio of Ebraheem Ahmed">
         <meta name="author" content="Ebraheem Tammam">
         <!-- css -->
+        <link href="css/shared.css" rel="stylesheet">
         <link href="css/header.css" rel="stylesheet">
+        <link href="css/landing.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <link href="css/progress.css" rel="stylesheet">
         <link href="css/card.css" rel="stylesheet">
@@ -18,44 +20,83 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     </head>
-    <body class="courgette-regular d-flex">
-        <header class="container">
+    <body class="courgette-regular">
+        <header class="background-color-main m-0">
             <nav class="navbar navbar-expand-lg navbar-light pt-lg-4">
                 <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-list" aria-controls="navbar-list" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="nav-list row text-center mx-lg-5 px-lg-5 collapse navbar-collapse" id="navbar-list">
-                    <span class="nav-item col"><a class="color-main active" href="#about">About</a></span>
-                    <span class="nav-item col"><a class="color-main" href="#education">Education</a></span>
-                    <span class="nav-item col"><a class="color-main" href="#skills">Skills</a></span>
-                    <span class="nav-item col"><a class="color-white" href="#participations">Participations</a></span>
-                    <span class="nav-item col"><a class="color-white" href="#projects">Projects</a></span>
-                    <span class="nav-item col"><a class="color-white" href="#contact-me">Contact Me</a></span>
+                <div class="nav-list row gap-0 collapse navbar-collapse mx-0" id="navbar-list">
+                    <span class="nav-item col-2"><a class="color-white active" href="#about">About</a></span>
+                    <!-- <span class="nav-item col"><a class="color-main" href="#education">Education</a></span> -->
+                    <span class="nav-item col-2"><a class="color-white" href="#skills">Skills</a></span>
+                    <span class="nav-item col-2"><a class="color-white" href="#participations">Participations</a></span>
+                    <span class="nav-item col-2"><a class="color-white" href="#projects">Projects</a></span>
+                    <span class="nav-item col-2"><a class="color-white" href="#contact">Contact</a></span>
                 </div>
             </nav>
-            <div class="header-titles container position-absolute ms-lg-5 ps-lg-5 mt-lg-5">
-                <div class="my-name row ms-lg-5 mt-lg-3 ps-lg-2">
-                    <h1 class="color-main">Ebraheem <br> Ahmed <br> Ebraheem</h1>
+        </header>
+        <section class="landing background-color-main">
+            <div class="row m-0 justify-content-center align-items-center">
+                <div class="col-5 titles p-5 p-lg-0">
+                    <div class="my-name row">
+                        <h1 class="color-white">Ebraheem <br> Ahmed <br> Ebraheem</h1>
+                    </div>
+                    <div class="description row mt-4 mt-lg-5">
+                        <h2 class="color-main background-color-white p-3">Fresh Fullstack developer</h2>
+                    </div>
                 </div>
-                <div class="description row ms-lg-5 mt-5 ps-lg-2">
-                    <h2 class="color-white background-color-main p-3">Fresh Fullstack developer</h2>
+                <div class="col-5 figure px-4 mt-0">
+                    <div class="row justify-content-center">
+                        <div class="col-3 icon-holder m-0">
+                            <img class="icon" src="images/host.png">
+                        </div>
+                        <div class="col-3 icon-holder pivot-column m-0">
+                            <img class="icon" src="images/db.png">
+                        </div>
+                        <div class="col-3 icon-holder m-0">
+                            <img class="icon" src="images/git.png">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center pivot-row">
+                        <div class="col-3 icon-holder m-0">
+                            <img class="icon" src="images/cpp.png">
+                        </div>
+                        <div class="col-3 icon-holder pivot-column m-0">
+                            <img class="icon" src="images/py-2.png">
+                        </div>
+                        <div class="col-3 icon-holder m-0">
+                            <img class="icon" src="images/laptop.png">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center m-0">
+                        <div class="col-3 icon-holder m-0">
+                            <img class="icon" src="images/github.png">
+                        </div>
+                        <div class="col-3 icon-holder pivot-column m-0">
+                            <img class="icon" src="images/py-1.png">
+                        </div>
+                        <div class="col-3 icon-holder m-0">
+                            <img class="icon" src="images/asp.png">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="landing d-flex">
-                <div class="base-line first-half text-end pe-5">
-                    <h1 class="color-main">
+            <div class="row mt-5 fun-line">
+                <div class="col text-end pe-5 first-part">
+                    <span class="color-white fs-1">
                         B r i n g &nbsp;&nbsp;&nbsp;&nbsp;
                         f u n
-                    </h1>
+                    </span>
                 </div>
-                <div class="base-line second-half background-color-main ps-5">
-                    <h1 class="color-white">
+                <div class="col text-start ps-5 second-part">
+                    <span class="color-white fs-1">
                         t o &nbsp;&nbsp;&nbsp;&nbsp;
                         c o d e
-                    </h1>
+                    </span>
                 </div>
             </div>
-        </header>
+        </section>
         <main class="m-0">
             <section id="about" class="d-flex m-0">
                 <div class="first-element background-color-main  d-flex align-items-center justify-content-center">
