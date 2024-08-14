@@ -21,9 +21,6 @@ main section div h1 {
 ul {
     list-style: none;
 }
-li {
-    position: relative;
-}
 .ls-elem-after::after {
     content: "";
     width: 100%;

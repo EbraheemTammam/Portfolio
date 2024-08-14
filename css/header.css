@@ -48,8 +48,9 @@ header {
 /* End Navbar */
 /* Start Header Titles */
 .header-titles {
+    position: absolute;
     display: block !important;
-    height: 66.6%;
+    /* height: 66.6%; */
 }
 .my-name h1 {
     font-size: 5em;
@@ -63,10 +64,10 @@ header {
 /* End Header */
 /* Start Landing */
 .landing {
+    position: static;
     width: 100%;
-    margin-top: 4.8%;
+    margin-top: 37.9%;
     height: 18%;
-    /* border-bottom: 3px solid #542120; */
 }
 .base-line {
     padding-top: 2.5%;
@@ -112,7 +113,7 @@ header {
     /*End Header */
     /* Start Landing */
     .landing {
-        margin-top: 10%;
+        margin-top: 180%;
         /* border-bottom: 0px; */
     }
     .base-line {
