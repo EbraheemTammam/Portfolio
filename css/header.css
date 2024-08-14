@@ -49,6 +49,7 @@ header {
 /* Start Header Titles */
 .header-titles {
     display: block !important;
+    height: 66.6%;
 }
 .my-name h1 {
     font-size: 5em;
@@ -62,6 +63,7 @@ header {
 /* End Header */
 /* Start Landing */
 .landing {
+    width: 100%;
     margin-top: 4.8%;
     height: 18%;
     /* border-bottom: 3px solid #542120; */
