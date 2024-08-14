@@ -42,6 +42,12 @@ hr {
 a {
     text-decoration: none !important;
 }
+#skills .first-element {
+    gap: 30rem;
+}
+.skill-list {
+    line-height: 5.5rem;
+}
 /* End Section */
 /* End Main */
 /* Med Screen */
@@ -75,5 +81,15 @@ a {
     }
     .progress {
         width: 80% !important;
+    }
+    #skills .first-element {
+        padding: 3rem !important;
+        gap: 5rem !important;
+    }
+    .skill-list {
+        line-height: 2.5rem;
+    }
+    .skill-list span {
+        font-size: 1.15rem;
     }
 }
