@@ -45,10 +45,10 @@ a {
 /* End Section */
 /* End Main */
 /* Med Screen */
-@media (max-width: 1080px) {
+@media (max-width: 67.5em) {
 }
 /* Small Screen */
-@media (max-width: 767px) {
+@media (max-width: 47.9375em) {
     section {
         flex-direction: column;
     }
@@ -70,9 +70,6 @@ a {
     .list-element {
         display: block !important;
     }
-    /* #participations .first-element {
-        display: block !important;
-    } */
     .list-element label {
         width: 100% !important;
     }

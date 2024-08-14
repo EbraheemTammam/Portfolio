@@ -51,7 +51,7 @@ header {
     display: block !important;
 }
 .my-name h1 {
-    font-size: 5em;
+    font-size: 500%;
     font-weight: bold;
 }
 .description h2 {
@@ -89,7 +89,7 @@ header {
     color: white;
 }
 /* Med Screen */
-@media(max-width: 1080px) {
+@media(max-width: 67.5em) {
     /* Start Header */
     header {
         background-position-y: 0%;
@@ -123,7 +123,7 @@ header {
     /* End Landing */
 }
 /* Small Screen */
-@media (max-width: 767px) {
+@media (max-width: 47.9375em) {
     /* Start Header */
     header {
         margin-bottom: 98.5% !important;
