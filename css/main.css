@@ -18,8 +18,9 @@ main section div h1 {
     padding: 5% !important;
     width: 51.9% !important;
 }
-ul {
-    list-style: none;
+p {
+    text-align: justify;
+    hyphens: auto;
 }
 .ls-elem-after::after {
     content: "";
@@ -69,6 +70,9 @@ a {
     .list-element {
         display: block !important;
     }
+    /* #participations .first-element {
+        display: block !important;
+    } */
     .list-element label {
         width: 100% !important;
     }

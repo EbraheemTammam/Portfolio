@@ -48,9 +48,7 @@ header {
 /* End Navbar */
 /* Start Header Titles */
 .header-titles {
-    position: absolute;
     display: block !important;
-    /* height: 66.6%; */
 }
 .my-name h1 {
     font-size: 5em;
@@ -64,7 +62,6 @@ header {
 /* End Header */
 /* Start Landing */
 .landing {
-    position: static;
     width: 100%;
     margin-top: 37.9%;
     height: 18%;

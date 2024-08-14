@@ -10,6 +10,7 @@
         <link href="css/header.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <link href="css/progress.css" rel="stylesheet">
+        <link href="css/card.css" rel="stylesheet">
         <!-- bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- font elements -->
@@ -24,17 +25,15 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="nav-list row text-center mx-lg-5 px-lg-5 collapse navbar-collapse" id="navbar-list">
-                    <!-- <span class="col-1"></span> -->
                     <span class="nav-item col"><a class="color-main active" href="#about">About</a></span>
                     <span class="nav-item col"><a class="color-main" href="#education">Education</a></span>
                     <span class="nav-item col"><a class="color-main" href="#skills">Skills</a></span>
                     <span class="nav-item col"><a class="color-white" href="#participations">Participations</a></span>
                     <span class="nav-item col"><a class="color-white" href="#projects">Projects</a></span>
                     <span class="nav-item col"><a class="color-white" href="#contact-me">Contact Me</a></span>
-                    <!-- <span class="col-1"></span> -->
                 </div>
             </nav>
-            <div class="header-titles container ms-lg-5 ps-lg-5 mt-lg-5">
+            <div class="header-titles container position-absolute ms-lg-5 ps-lg-5 mt-lg-5">
                 <div class="my-name row ms-lg-5 mt-lg-3 ps-lg-2">
                     <h1 class="color-main">Ebraheem <br> Ahmed <br> Ebraheem</h1>
                 </div>
@@ -63,7 +62,7 @@
                     <h1 class="color-white">About</h1>
                 </div>
                 <div class="second-element d-flex align-items-center justify-content-center">
-                    <p class="color-main mt-2 mt-lg-4 fs-3">
+                    <p class="color-main mt-2 mt-lg-4 fs-3 lh-lg">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
                         sint reprehenderit explicabo nulla veritatis quia blanditiis illo
                         reiciendis aut iste. Eligendi laborum autem, perferendis aspernatur
@@ -75,11 +74,11 @@
             </section>
             <section id="education" class="d-flex m-0">
                 <div class="first-element d-flex align-items-center justify-content-center">
-                    <p class="color-main mt-2 mt-lg-4 fs-3">
-                        Graduated from Faculty of Science, Tanta University
-                        Department of Computer Science with grade very good.
+                    <p class="color-main mt-2 mt-lg-4 fs-3 lh-lg">
+                        Graduated from <b>Faculty of Science, Tanta University</b>
+                        Department of <b>Computer Science</b> with grade <b>very good</b>.
                         Throughout my journey in college, I have studied
-                        subjects in both computer science and mathematics
+                        subjects in both <b>computer science</b> and <b>mathematics</b>
                         which have enriched my knowledge, skills, eager to
                         learn and keeping up with recent world updates.
                     </p>
@@ -117,7 +116,7 @@
                     </span>
                 </div>
                 <div class="second-element">
-                    <ul class="color-main mt-2 mt-lg-4 fs-3">
+                    <ul class="color-main list-unstyled mt-2 mt-lg-4 fs-3">
                         <li id="languages" class="pb-3 ls-elem-after position-relative">
                             <h2>Programming languages:</h2>
                             <div class="container px-3 px-lg-5">
@@ -378,15 +377,61 @@
                 </div>
             </section>
             <section id="participations" class="d-flex m-0">
-                <div class="first-element d-flex align-items-center justify-content-center">
-                    <p class="color-main mt-2 mt-lg-4 fs-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                        sint reprehenderit explicabo nulla veritatis quia blanditiis illo
-                        reiciendis aut iste. Eligendi laborum autem, perferendis aspernatur
-                        et alias, soluta dolor neque magnam temporibus explicabo earum
-                        rerum laudantium praesentium dignissimos impedit illum. Voluptas
-                        dolores quisquam laboriosam ut amet at quidem deserunt autem!
-                    </p>
+                <div class="first-element py-5 px-1">
+                    <div class="row gap-3 justify-content-center">
+                        <div class="card col-10 col-lg-5 p-0">
+                            <a href="images/ecpc.png">
+                                <img class="card-img-top img-fluid" src="images/ecpc.png">
+                            </a>
+                            <div class="card-header pb-0">
+                                <h4 class="color-white">Egyptian Collegiates Programming Contest</h4>
+                            </div>
+                            <div class="card-title p-3 pb-0 mb-0 position-relative">
+                                <h5 class="color-main">Track: Competitive Programming</h5>
+                            </div>
+                            <div class="card-body pb-0">
+                                <p class="fs-5 color-main">
+                                    10th place for university <br>
+                                    63rd place for day
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card col-10 col-lg-5 p-0">
+                            <a href="images/ecpc-2.png">
+                                <img class="card-img-top img-fluid" src="images/ecpc-2.png">
+                            </a>
+                            <div class="card-header pb-0">
+                                <h4 class="color-white">Egyptian Collegiates Programming Contest</h4>
+                            </div>
+                            <div class="card-title p-3 pb-0 mb-0 position-relative">
+                                <h5 class="color-main">Track: Competitive Programming</h5>
+                            </div>
+                            <div class="card-body pb-0">
+                                <p class="fs-5 color-main">
+                                    8th place for university <br>
+                                    51rd place for day
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 mt-lg-5 justify-content-center">
+                        <div class="card col-10 p-0">
+                            <a href="images/smart-hackathon.jpg">
+                                <img class="card-img-top img-fluid" src="images/smart-hackathon.jpg">
+                            </a>
+                            <div class="card-header pb-0">
+                                <h4 class="color-white">Smart Government Hackathon</h4>
+                            </div>
+                            <div class="card-title p-3 pb-0 mb-0 position-relative">
+                                <h5 class="color-main">Track: Smart Authentication</h5>
+                            </div>
+                            <div class="card-body pb-0">
+                                <p class="fs-5 color-main">
+                                    4th place
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="second-element background-color-main d-flex align-items-center justify-content-center">
                     <h1 class="color-white">Participations</h1>
