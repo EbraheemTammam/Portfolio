@@ -1,10 +1,7 @@
 /* Start Main */
-main {
-    order: 2;
-}
 /* Start Section */
 main section {
-    margin-right: 0 !important;
+    height: 100% !important;
 }
 main section div h1 {
     font-size: 5rem;
