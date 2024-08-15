@@ -64,6 +64,10 @@ p
     text-align: justify;
     hyphens: auto;
 }
+.icon {
+    width: 90%;
+    height: 90%;
+}
 
 /* End Section Content */
 
