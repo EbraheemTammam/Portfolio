@@ -1,92 +1,114 @@
-/* Start Main */
-/* Start Section */
-main section {
-    height: 100% !important;
+:root
+{
+    --main-color-light: #542120;
 }
-main section div h1 {
-    font-size: 5rem;
+
+/* Start Section Header */
+
+.section-header
+{
+    position: relative;
 }
-.first-element {
-    padding: 5% !important;
-    width: 48.1% !important;
-    gap: 1%;
-}
-.second-element {
-    padding: 5% !important;
-    width: 51.9% !important;
-}
-p {
-    text-align: justify;
-    hyphens: auto;
-}
-.ls-elem-after::after {
+.section-header::after
+{
     content: "";
-    width: 100%;
+    width: 20%;
     height: 3px;
     border-radius: 50%;
-    background-color: #542120;
     opacity: 40%;
     position: absolute;
-    bottom: -30px;
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
 }
-hr {
-    height: 3px !important;
-    color:  #542120;
-    opacity: 100%;
+#about .section-header::after,
+#skills .section-header::after
+{
+    background-color: var(--main-color-light);
 }
-a {
-    text-decoration: none !important;
+#participations .section-header::after,
+#projects .section-header::after
+{
+    background-color: white;
 }
-#skills .first-element {
-    gap: 30rem;
+
+/* End Section Header */
+
+/* Start Section Content */
+
+.section-content
+{
+    padding: 3rem;
 }
-.skill-list {
-    line-height: 5.5rem;
+.pivot-row
+{
+    border-top: 2px solid var(--main-color-light);
+    border-bottom: 2px solid var(--main-color-light);
 }
-/* End Section */
-/* End Main */
+.pivot-column
+{
+    border-left: 2px solid var(--main-color-light);
+    border-right: 2px solid var(--main-color-light);
+}
+.skill-group
+{
+    padding: 2rem !important;
+}
+.skill-group-title span
+{
+    font-size: 1.8rem;
+}
+p
+{
+    font-size: 2rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* End Section Content */
+
 /* Med Screen */
-@media (max-width: 67.5em) {
+@media (max-width: 67.5em)
+{
 }
+
 /* Small Screen */
-@media (max-width: 47.9375em) {
-    section {
-        flex-direction: column;
+@media (max-width: 47.9375em)
+{
+    /* Start Section Content */
+
+    .section-content
+    {
+        padding: 0.5rem;
     }
-    .first-element {
+    .card
+    {
         width: 100% !important;
     }
-    .second-element {
+    .pivot-column
+    {
+        border: 0;
+    }
+    .pivot-row
+    {
+        border: 0;
+    }
+    .pivot-column.pivot-row {
+        display: none;
+    }
+    .skill-group {
         width: 100% !important;
+        padding: 0rem !important;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+        border-bottom: 2px solid var(--main-color-light);
     }
-    main section div h1 {
-        font-size: 3rem !important;
+    .skill-group-title span {
+        font-size: 1.5rem !important;
     }
-    #education {
-        flex-direction: column-reverse;
+    p {
+        font-size: 1.3rem;
     }
-    #participations {
-        flex-direction: column-reverse;
-    }
-    .list-element {
-        display: block !important;
-    }
-    .list-element label {
-        width: 100% !important;
-    }
-    .progress {
-        width: 80% !important;
-    }
-    #skills .first-element {
-        padding: 3rem !important;
-        gap: 5rem !important;
-    }
-    .skill-list {
-        line-height: 2.5rem;
-    }
-    .skill-list span {
-        font-size: 1.15rem;
-    }
+
+    /* End Section Content */
 }

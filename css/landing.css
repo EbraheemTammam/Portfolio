@@ -22,11 +22,11 @@
     width: 100%;
     height: 100%;
 }
-.pivot-row {
+.figure .pivot-row {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
 }
-.pivot-column {
+.figure .pivot-column {
     border-left: 2px solid white;
     border-right: 2px solid white;
 }
@@ -90,10 +90,13 @@
     }
     .fun-line .first-part {
         text-align: start !important;
+        padding: 1rem;
         padding-left: 1.5rem;
+        border-top: 1px solid white;
     }
     .fun-line .second-part {
         text-align: end !important;
+        padding: 1rem;
         padding-right: 1.5rem;
     }
     /* End Landing */
