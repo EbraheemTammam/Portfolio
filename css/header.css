@@ -1,55 +1,83 @@
-:root {
+:root
+{
     --main-color-light: #542120;
 }
+
 /* Start Header */
-header {
+
+header
+{
     max-width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
 }
+
+/* End Header */
+
 /* Start Navbar */
-.navbar {
+
+.navbar
+{
     width: 100% !important;
     height: 15%;
-    display: block !important;
 }
-.nav-item a {
+.nav-item a
+{
     text-decoration: none;
     font-size: 1.5em;
 }
-.nav-item a:hover {
+.nav-item a:hover
+{
     color: #A96564 !important;
 }
 /* End Navbar */
-/* End Header */
+
 /* Med Screen */
-@media(max-width: 67.5em) {
+@media(max-width: 67.5em)
+{
     /* Start Header */
-    header {
+
+    header
+    {
         background-position-y: 0%;
     }
+
+    /*End Header */
+
     /* Start Navbar */
-    .navbar-toggler {
+
+    .navbar-toggler
+    {
         background-color: white !important;
     }
-    .nav-item a {
+    .nav-item a
+    {
         color: white;
     }
+
     /* End Navbar */
-    /*End Header */
 }
+
 /* Small Screen */
-@media (max-width: 47.9375em) {
+@media (max-width: 47.9375em)
+{
     /* Start Header */
-    header {
+
+    header
+    {
         margin-bottom: 98.5% !important;
     }
+
+    /* End Header */
+
     /* Start Navbar */
-    .navbar {
+
+    .navbar
+    {
         padding-top: 0px !important;
-        /* margin-top: 10px !important; */
     }
-    .nav-list {
+    .nav-list
+    {
         flex-direction: column;
         width: 100%;
         display: none;
@@ -59,18 +87,21 @@ header {
         background-color: white;
         padding: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        z-index: 1;
+        /* z-index: 1; */
     }
-    .nav-item {
+    .nav-item
+    {
         padding-top: 10px !important;
     }
-    .nav-item a {
+    .nav-item a
+    {
         color: var(--main-color-light) !important;
         background-color: white;
     }
-    .nav-item a:hover {
+    .nav-item a:hover
+    {
         color: #ffcc00 !important;
     }
+
     /* End Navbar */
-    /* End Header */
 }
