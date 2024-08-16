@@ -56,7 +56,23 @@
 }
 .skill-group-title span
 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+}
+.skill label
+{
+    font-size: 1.3rem !important;
+}
+.framework-logo-holder
+{
+    height: 30% !important;
+}
+.framework-logo
+{
+    height: 100% !important;
+}
+#projects .card
+{
+    height: 33rem !important;
 }
 p
 {

@@ -20,12 +20,12 @@
         <!-- Font Links -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <!-- Start Body -->
-    <body class="courgette-regular">
+    <body>
         <!-- Start Header -->
-        <header class="background-color-main m-0">
+        <header class="background-color-main m-0 courgette-regular">
             <!-- Start Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light pt-lg-4">
                 <!-- Navbar Button [for small screens] -->
@@ -47,14 +47,14 @@
         <!-- End Header -->
 
         <!-- Start Landing -->
-        <section class="landing background-color-main p-2 p-lg-5">
+        <section class="landing background-color-main p-2 p-lg-5 courgette-regular">
             <!-- My Name & Figure -->
             <div class="row m-0 mt-5 justify-content-center align-items-center">
                 <div class="col-5 titles p-5 p-lg-0">
                     <div class="my-name row">
                         <h1 class="color-white">Ebraheem <br> Ahmed <br> Ebraheem</h1>
                     </div>
-                    <div class="description row mt-4 mt-lg-5">
+                    <div class="description row mt-4 mt-lg-5 exo-2-font">
                         <h2 class="color-main background-color-white p-3">Fresh Fullstack developer</h2>
                     </div>
                 </div>
@@ -84,10 +84,10 @@
         <main class="m-0">
             <!-- Start About -->
             <section id="about" class="p-4 p-lg-5">
-                <div class="row section-header m-0">
+                <div class="row section-header m-0 courgette-regular">
                     <h1 class="color-main text-center">About</h1>
                 </div>
-                <div class="section-content row">
+                <div class="section-content row exo-2-font">
                     <p class="color-main mt-4 lh-lg">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
                         sint reprehenderit explicabo nulla veritatis quia blanditiis illo
@@ -103,69 +103,81 @@
             <!-- Start Participations -->
             <section id="participations" class="background-color-main p-4 p-lg-5">
                 <!-- Participations Header -->
-                <div class="row section-header m-0">
+                <div class="row section-header m-0 courgette-regular">
                     <h1 class="color-white text-center">Participations</h1>
                 </div>
                 <!-- Start Participations Content -->
-                <div class="section-content row gap-4 mt-5 justify-content-center">
+                <div class="section-content row gap-4 mt-5 justify-content-center exo-2-font">
                     <!-- Start ECPC 2022 -->
                     <div class="card col-3 p-0">
                         <a href="images/ecpc.png">
                             <img class="card-img-top img-fluid" src="images/ecpc.png">
                         </a>
-                        <div class="card-header pb-0">
-                            <h4 class="color-white">Egyptian Collegiates Programming Contest</h4>
+                        <div class="card-header pb-0 row m-0 align-items-center">
+                            <img src="images/contest.svg" alt="contest" class="img-fluid col-3">
+                            <h4 class="color-white col">Egyptian Collegiates Programming Contest 2022</h4>
                         </div>
                         <div class="card-title p-3 pb-0 mb-0 position-relative">
-                            <h5 class="color-main">Track: Competitive Programming</h5>
+                            <h5 class="color-main">Competitive Programming</h5>
                         </div>
-                        <div class="card-body pb-0">
-                            <p class="fs-5 color-main">
-                                10th place for university <br>
-                                63rd place for day
-                            </p>
+                        <div class="card-body">
+                            <div class="rank row m-0 align-items-center">
+                                <img src="images/podium.svg" alt="rank" class="col-3 img-fluid">
+                                <span class="fs-5 color-main col">10th for university</span>
+                            </div>
+                            <div class="rank fs-5 color-main row m-0 align-items-center">
+                                <img src="images/podium.svg" alt="rank" class="col-3 img-fluid">
+                                <span class="color-main fs-5 col">63rd for day</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End ECPC 2022 -->
-
-                    <!-- Start ECPC 2023 -->
-                    <div class="card col-3 p-0">
-                        <a href="images/ecpc-2.png">
-                            <img class="card-img-top img-fluid" src="images/ecpc-2.png">
-                        </a>
-                        <div class="card-header pb-0">
-                            <h4 class="color-white">Egyptian Collegiates Programming Contest</h4>
-                        </div>
-                        <div class="card-title p-3 pb-0 mb-0 position-relative">
-                            <h5 class="color-main">Track: Competitive Programming</h5>
-                        </div>
-                        <div class="card-body pb-0">
-                            <p class="fs-5 color-main">
-                                8th place for university <br>
-                                51st place for day
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End ECPC 2023 -->
 
                     <!-- Start Smart Hackathon -->
                     <div class="card col-3 p-0">
                         <a href="images/smart-hackathon.jpg">
                             <img class="card-img-top img-fluid" src="images/smart-hackathon.jpg">
                         </a>
-                        <div class="card-header pb-0">
-                            <h4 class="color-white">Smart Government Hackathon</h4>
+                        <div class="card-header pb-0 row m-0 align-items-center">
+                            <img src="images/contest.svg" alt="contest" class="img-fluid col-3">
+                            <h4 class="color-white col">Smart Government Hackathon 2023</h4>
                         </div>
                         <div class="card-title p-3 pb-0 mb-0 position-relative">
-                            <h5 class="color-main">Track: Smart Authentication</h5>
+                            <h5 class="color-main">Smart Authentication</h5>
                         </div>
                         <div class="card-body pb-0">
-                            <p class="fs-5 color-main">
-                                4th place
-                            </p>
+                            <div class="rank row m-0 align-items-center">
+                                <img src="images/podium.svg" alt="rank" class="col-3 img-fluid">
+                                <span class="fs-5 color-main col">4th</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End Smart Hackathon -->
+
+                    <!-- Start ECPC 2023 -->
+                    <div class="card col-3 p-0">
+                        <a href="images/ecpc-2.png">
+                            <img class="card-img-top img-fluid" src="images/ecpc-2.png">
+                        </a>
+                        <div class="card-header pb-0 row m-0 align-items-center">
+                            <img src="images/contest.svg" alt="contest" class="img-fluid col-3">
+                            <h4 class="color-white col">Egyptian Collegiates Programming Contest 2023</h4>
+                        </div>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative">
+                            <h5 class="color-main">Competitive Programming</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="rank row m-0 align-items-center">
+                                <img src="images/podium.svg" alt="rank" class="col-3 img-fluid">
+                                <span class="fs-5 color-main col">8th for university</span>
+                            </div>
+                            <div class="rank fs-5 color-main row m-0 align-items-center">
+                                <img src="images/podium.svg" alt="rank" class="col-3 img-fluid">
+                                <span class="color-main fs-5 col">51st for day</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End ECPC 2023 -->
                 </div>
                 <!-- End Participations Content -->
             </section>
@@ -174,11 +186,11 @@
             <!-- Start Skills -->
             <section id="skills" class="p-4 p-lg-5">
                 <!-- Skills Header -->
-                <div class="row section-header m-0">
+                <div class="row section-header m-0 courgette-regular">
                     <h1 class="color-main text-center">Skills</h1>
                 </div>
                 <!-- Start Skills Content -->
-                <div class="section-content row m-0">
+                <div class="section-content row m-0 exo-2-font">
                     <!-- Start Programming Lnaguages -->
                     <div class="col-4 skill-group">
                         <div class="row skill-group-title m-0">
@@ -517,23 +529,24 @@
 
             <!-- Start Projects -->
             <section id="projects" class="background-color-main p-4 p-lg-5">
-                <div class="row m-0 section-header m-0">
+                <div class="row m-0 section-header m-0 courgette-regular">
                     <h1 class="color-white text-center">Projects</h1>
                 </div>
                 <!-- Projects Content -->
-                <div class="section-content row gap-4 mt-5 justify-content-center">
+                <div class="section-content row gap-4 mt-5 justify-content-center exo-2-font">
                     <!-- Start UltraMacro -->
                     <div class="card col-3 p-0">
                         <a href="https://github.com/EbraheemTammam/UltraMacro" target="_blank">
                             <img class="card-img-top img-fluid" src="images/ultramacro.png">
                         </a>
-                        <div class="card-header pb-0">
-                            <h4 class="color-white">UltraMacro</h4>
+                        <div class="card-header pb-0 row m-0 align-items-center">
+                            <img src="images/github-2.svg" alt="github logo" class="img-fluid col-3">
+                            <h4 class="color-white col">UltraMacro</h4>
                         </div>
-                        <div class="card-title p-3 pb-0 mb-0 position-relative">
-                            <h5 class="color-main">FastAPI</h5>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative framework-logo-holder row m-0">
+                            <img src="images/fast.svg" alt="fastapi logo" class="img-fluid framework-logo">
                         </div>
-                        <div class="card-body pb-0">
+                        <div class="card-body project-description">
                             <p class="fs-5 color-main">
                                 Education management system
                                 with data enginering features
@@ -543,38 +556,19 @@
                     </div>
                     <!-- End UltraMacro -->
 
-                    <!-- Start HiFly -->
-                    <div class="card col-3 p-0">
-                        <a href="https://github.com/EbraheemTammam/HiFly" target="_blank">
-                            <img class="card-img-top img-fluid" src="images/hifly.png">
-                        </a>
-                        <div class="card-header pb-0">
-                            <h4 class="color-white">HiFly</h4>
-                        </div>
-                        <div class="card-title p-3 pb-0 mb-0 position-relative">
-                            <h5 class="color-main">Django Rest Framework</h5>
-                        </div>
-                        <div class="card-body pb-0">
-                            <p class="fs-5 color-main">
-                                Flight academy management system
-                                with cloud storage features using cloudinary
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End HiFly -->
-
                     <!-- Start FastAPI Script -->
                     <div class="card col-3 p-0">
                         <a href="https://gitlab.com/EbraheemAhmed/fastapi_script" target="_blank">
                             <img class="card-img-top img-fluid" src="images/fast_script.png">
                         </a>
-                        <div class="card-header pb-0">
-                            <h4 class="color-white">FastAPI Script</h4>
+                        <div class="card-header pb-0 row m-0 align-items-center">
+                            <img src="images/gitlab.svg" alt="gitlab logo" class="img-fluid col-3">
+                            <h4 class="color-white col">FastAPI Script</h4>
                         </div>
-                        <div class="card-title p-3 pb-0 mb-0 position-relative">
-                            <h5 class="color-main">Shell Script</h5>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative framework-logo-holder row m-0">
+                            <img src="images/bash.svg" alt="bash logo" class="img-fluid framework-logo">
                         </div>
-                        <div class="card-body pb-0">
+                        <div class="card-body project-description">
                             <p class="fs-5 color-main">
                                 Shell script to simplify using
                                 fastapi framework
@@ -582,6 +576,27 @@
                         </div>
                     </div>
                     <!-- End FastAPI Script -->
+
+                    <!-- Start HiFly -->
+                    <div class="card col-3 p-0">
+                        <a href="https://github.com/EbraheemTammam/HiFly" target="_blank">
+                            <img class="card-img-top img-fluid" src="images/hifly.png">
+                        </a>
+                        <div class="card-header pb-0 row m-0 align-items-center">
+                            <img src="images/github-2.svg" alt="github logo" class="img-fluid col-3">
+                            <h4 class="color-white col">HiFly</h4>
+                        </div>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative framework-logo-holder row m-0">
+                            <img src="images/rest.svg" alt="rest framework logo" class="img-fluid framework-logo">
+                        </div>
+                        <div class="card-body project-description">
+                            <p class="fs-5 color-main">
+                                Flight academy management system
+                                with cloud storage features using cloudinary
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End HiFly -->
                 </div>
                 <!-- End Projects Content -->
             </section>
