@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Start Head -->
     <head>
+        <!-- Start Title & Meta Data -->
         <title>Ebraheem's Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio of Ebraheem Ahmed">
         <meta name="author" content="Ebraheem Tammam">
-        <!-- css -->
+        <!-- Local CSS -->
         <link href="css/shared.css" rel="stylesheet">
         <link href="css/header.css" rel="stylesheet">
         <link href="css/landing.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <link href="css/progress.css" rel="stylesheet">
         <link href="css/card.css" rel="stylesheet">
-        <!-- bootstrap -->
+        <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- font elements -->
+        <!-- Font Links -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     </head>
+    <!-- Start Body -->
     <body class="courgette-regular">
+        <!-- Start Header -->
         <header class="background-color-main m-0">
+            <!-- Start Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light pt-lg-4">
+                <!-- Navbar Button [for small screens] -->
                 <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-list" aria-controls="navbar-list" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- Start Navbar List -->
                 <div class="nav-list row gap-0 collapse justify-content-center navbar-collapse mx-0" id="navbar-list">
                     <span class="nav-item col text-center"><a class="color-white active" href="#about">About</a></span>
                     <span class="nav-item col text-center"><a class="color-white" href="#participations">Participations</a></span>
@@ -33,9 +40,15 @@
                     <span class="nav-item col text-center"><a class="color-white" href="#projects">Projects</a></span>
                     <span class="nav-item col text-center"><a class="color-white" href="#contact">Contact</a></span>
                 </div>
+                <!-- End Navbar List -->
             </nav>
+            <!-- End Navbar -->
         </header>
+        <!-- End Header -->
+
+        <!-- Start Landing -->
         <section class="landing background-color-main p-2 p-lg-5">
+            <!-- My Name & Figure -->
             <div class="row m-0 mt-5 justify-content-center align-items-center">
                 <div class="col-5 titles p-5 p-lg-0">
                     <div class="my-name row">
@@ -49,6 +62,7 @@
                     <img src="images/data-science.png" class="img-fluid">
                 </div>
             </div>
+            <!-- Fun Line -->
             <div class="row m-0 mt-5 p-1 fun-line">
                 <div class="col text-end pe-lg-5 first-part">
                     <span class="color-white fs-1">
@@ -64,7 +78,11 @@
                 </div>
             </div>
         </section>
+        <!-- End Landing -->
+
+        <!-- Start Main -->
         <main class="m-0">
+            <!-- Start About -->
             <section id="about" class="p-4 p-lg-5">
                 <div class="row section-header m-0">
                     <h1 class="color-main text-center">About</h1>
@@ -80,72 +98,93 @@
                     </p>
                 </div>
             </section>
-                <section id="participations" class="background-color-main p-4 p-lg-5">
-                    <div class="row section-header m-0">
-                        <h1 class="color-white text-center">Participations</h1>
-                    </div>
-                    <div class="section-content row gap-4 mt-5 justify-content-center">
-                        <div class="card col-3 p-0">
-                            <a href="images/ecpc.png">
-                                <img class="card-img-top img-fluid" src="images/ecpc.png">
-                            </a>
-                            <div class="card-header pb-0">
-                                <h4 class="color-white">Egyptian Collegiates Programming Contest</h4>
-                            </div>
-                            <div class="card-title p-3 pb-0 mb-0 position-relative">
-                                <h5 class="color-main">Track: Competitive Programming</h5>
-                            </div>
-                            <div class="card-body pb-0">
-                                <p class="fs-5 color-main">
-                                    10th place for university <br>
-                                    63rd place for day
-                                </p>
-                            </div>
+            <!-- End About -->
+
+            <!-- Start Participations -->
+            <section id="participations" class="background-color-main p-4 p-lg-5">
+                <!-- Participations Header -->
+                <div class="row section-header m-0">
+                    <h1 class="color-white text-center">Participations</h1>
+                </div>
+                <!-- Start Participations Content -->
+                <div class="section-content row gap-4 mt-5 justify-content-center">
+                    <!-- Start ECPC 2022 -->
+                    <div class="card col-3 p-0">
+                        <a href="images/ecpc.png">
+                            <img class="card-img-top img-fluid" src="images/ecpc.png">
+                        </a>
+                        <div class="card-header pb-0">
+                            <h4 class="color-white">Egyptian Collegiates Programming Contest</h4>
                         </div>
-                        <div class="card col-3 p-0">
-                            <a href="images/ecpc-2.png">
-                                <img class="card-img-top img-fluid" src="images/ecpc-2.png">
-                            </a>
-                            <div class="card-header pb-0">
-                                <h4 class="color-white">Egyptian Collegiates Programming Contest</h4>
-                            </div>
-                            <div class="card-title p-3 pb-0 mb-0 position-relative">
-                                <h5 class="color-main">Track: Competitive Programming</h5>
-                            </div>
-                            <div class="card-body pb-0">
-                                <p class="fs-5 color-main">
-                                    8th place for university <br>
-                                    51st place for day
-                                </p>
-                            </div>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative">
+                            <h5 class="color-main">Track: Competitive Programming</h5>
                         </div>
-                        <div class="card col-3 p-0">
-                            <a href="images/smart-hackathon.jpg">
-                                <img class="card-img-top img-fluid" src="images/smart-hackathon.jpg">
-                            </a>
-                            <div class="card-header pb-0">
-                                <h4 class="color-white">Smart Government Hackathon</h4>
-                            </div>
-                            <div class="card-title p-3 pb-0 mb-0 position-relative">
-                                <h5 class="color-main">Track: Smart Authentication</h5>
-                            </div>
-                            <div class="card-body pb-0">
-                                <p class="fs-5 color-main">
-                                    4th place
-                                </p>
-                            </div>
+                        <div class="card-body pb-0">
+                            <p class="fs-5 color-main">
+                                10th place for university <br>
+                                63rd place for day
+                            </p>
                         </div>
                     </div>
+                    <!-- End ECPC 2022 -->
+
+                    <!-- Start ECPC 2023 -->
+                    <div class="card col-3 p-0">
+                        <a href="images/ecpc-2.png">
+                            <img class="card-img-top img-fluid" src="images/ecpc-2.png">
+                        </a>
+                        <div class="card-header pb-0">
+                            <h4 class="color-white">Egyptian Collegiates Programming Contest</h4>
+                        </div>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative">
+                            <h5 class="color-main">Track: Competitive Programming</h5>
+                        </div>
+                        <div class="card-body pb-0">
+                            <p class="fs-5 color-main">
+                                8th place for university <br>
+                                51st place for day
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End ECPC 2023 -->
+
+                    <!-- Start Smart Hackathon -->
+                    <div class="card col-3 p-0">
+                        <a href="images/smart-hackathon.jpg">
+                            <img class="card-img-top img-fluid" src="images/smart-hackathon.jpg">
+                        </a>
+                        <div class="card-header pb-0">
+                            <h4 class="color-white">Smart Government Hackathon</h4>
+                        </div>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative">
+                            <h5 class="color-main">Track: Smart Authentication</h5>
+                        </div>
+                        <div class="card-body pb-0">
+                            <p class="fs-5 color-main">
+                                4th place
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Smart Hackathon -->
+                </div>
+                <!-- End Participations Content -->
             </section>
+            <!-- End Participations -->
+
+            <!-- Start Skills -->
             <section id="skills" class="p-4 p-lg-5">
+                <!-- Skills Header -->
                 <div class="row section-header m-0">
                     <h1 class="color-main text-center">Skills</h1>
                 </div>
+                <!-- Start Skills Content -->
                 <div class="section-content row m-0">
+                    <!-- Start Programming Lnaguages -->
                     <div class="col-4 skill-group">
                         <div class="row skill-group-title m-0">
                             <span class="color-main">Programming languages:</span>
                         </div>
+                        <!-- Programming Languages Skills List -->
                         <div class="row skill-group-list ps-3 m-0 mt-3">
                             <div class="row skill m-0 mt-3 align-items-center">
                                 <div class="icon-holder col-3">
@@ -189,10 +228,14 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Programming Lnaguages -->
+
+                    <!-- Start Fundamentals -->
                     <div class="col-4 skill-group pivot-column">
                         <div class="row skill-group-title m-0">
                             <span class="color-main">Fundamentals:</span>
                         </div>
+                        <!-- Fundamentals Skills List -->
                         <div class="row skill-group-list m-0 ps-3 mt-3">
                             <div class="row skill m-0 mt-3">
                                 <label class="col-5 color-main fs-4">OOD</label>
@@ -228,10 +271,14 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Fundamentals -->
+
+                    <!-- Start Frameworks -->
                     <div class="col-4 skill-group">
                         <div class="row skill-group-title m-0">
                             <span class="color-main">Frameworks:</span>
                         </div>
+                        <!-- Frameworks Skills List -->
                         <div class="row skill-group-list m-0 ps-3 mt-3">
                             <div class="row skill m-0 mt-3 align-items-center">
                                 <div class="icon-holder col-3">
@@ -275,10 +322,14 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Frameworks -->
+
+                    <!-- Start Web Design -->
                     <div class="col-4 skill-group pivot-row">
                         <div class="row skill-group-title m-0">
                             <span class="color-main">Web Design:</span>
                         </div>
+                        <!-- Web Design Skills List -->
                         <div class="row skill-group-list m-0 ps-3 mt-3">
                             <div class="row skill m-0 mt-3 align-items-center">
                                 <div class="icon-holder col-3">
@@ -302,11 +353,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Web Design -->
+
                     <div class="col-4 skill-group pivot-column pivot-row"></div>
+
+                    <!-- Start Operating Systems -->
                     <div class="col-4 skill-group pivot-row">
                         <div class="row skill-group-title m-0">
                             <span class="color-main">Operating Systems:</span>
                         </div>
+                        <!-- Operating Systems Skills List -->
                         <div class="row skill-group-list m-0 ps-3 mt-3">
                             <div class="row skill m-0 mt-3 align-items-center">
                                 <div class="icon-holder col-3">
@@ -330,10 +386,14 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Operating Systems -->
+
+                    <!-- Start Version Control -->
                     <div class="col-4 skill-group">
                         <div class="row skill-group-title m-0">
                             <span class="color-main">Version Control:</span>
                         </div>
+                        <!-- Version Control Skills List -->
                         <div class="row skill-group-list m-0 ps-3 mt-3">
                             <div class="row skill m-0 mt-3 align-items-center">
                                 <div class="icon-holder col-3">
@@ -367,10 +427,14 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Version Control -->
+
+                    <!-- Start Database Management -->
                     <div class="col-4 skill-group pivot-column">
                         <div class="row skill-group-title m-0">
                             <span class="color-main">Database Management:</span>
                         </div>
+                        <!-- Database Management Skills List -->
                         <div class="row skill-group-list m-0 ps-3 mt-3">
                             <div class="row skill m-0 mt-3 align-items-center">
                                 <div class="icon-holder col-3">
@@ -404,10 +468,14 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Database Management -->
+
+                    <!-- Start Others -->
                     <div class="col-4 skill-group">
                         <div class="row skill-group-title m-0">
                             <span class="color-main">Others:</span>
                         </div>
+                        <!-- Others SKills List -->
                         <div class="row skill-group-list m-0 ps-3 mt-3">
                             <div class="row skill m-0 mt-3 align-items-center">
                                 <div class="icon-holder col-3">
@@ -441,27 +509,92 @@
                             </div>
                         </div>
                     </div>
+                    <!-- End Others -->
                 </div>
+                <!-- End Skills Content -->
             </section>
+            <!-- End SKills -->
+
+            <!-- Start Projects -->
             <section id="projects" class="background-color-main p-4 p-lg-5">
                 <div class="row m-0 section-header m-0">
                     <h1 class="color-white text-center">Projects</h1>
                 </div>
-                <div class="section-content row m-0">
-                    <p class="color-white mt-4 lh-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                        sint reprehenderit explicabo nulla veritatis quia blanditiis illo
-                        reiciendis aut iste. Eligendi laborum autem, perferendis aspernatur
-                        et alias, soluta dolor neque magnam temporibus explicabo earum
-                        rerum laudantium praesentium dignissimos impedit illum. Voluptas
-                        dolores quisquam laboriosam ut amet at quidem deserunt autem!
-                    </p>
+                <!-- Projects Content -->
+                <div class="section-content row gap-4 mt-5 justify-content-center">
+                    <!-- Start UltraMacro -->
+                    <div class="card col-3 p-0">
+                        <a href="https://github.com/EbraheemTammam/UltraMacro" target="_blank">
+                            <img class="card-img-top img-fluid" src="images/ultramacro.png">
+                        </a>
+                        <div class="card-header pb-0">
+                            <h4 class="color-white">UltraMacro</h4>
+                        </div>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative">
+                            <h5 class="color-main">FastAPI</h5>
+                        </div>
+                        <div class="card-body pb-0">
+                            <p class="fs-5 color-main">
+                                Education management system
+                                with data enginering features
+                                using pandas
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End UltraMacro -->
+
+                    <!-- Start HiFly -->
+                    <div class="card col-3 p-0">
+                        <a href="https://github.com/EbraheemTammam/HiFly" target="_blank">
+                            <img class="card-img-top img-fluid" src="images/hifly.png">
+                        </a>
+                        <div class="card-header pb-0">
+                            <h4 class="color-white">HiFly</h4>
+                        </div>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative">
+                            <h5 class="color-main">Django Rest Framework</h5>
+                        </div>
+                        <div class="card-body pb-0">
+                            <p class="fs-5 color-main">
+                                Flight academy management system
+                                with cloud storage features using cloudinary
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End HiFly -->
+
+                    <!-- Start FastAPI Script -->
+                    <div class="card col-3 p-0">
+                        <a href="https://gitlab.com/EbraheemAhmed/fastapi_script" target="_blank">
+                            <img class="card-img-top img-fluid" src="images/fast_script.png">
+                        </a>
+                        <div class="card-header pb-0">
+                            <h4 class="color-white">FastAPI Script</h4>
+                        </div>
+                        <div class="card-title p-3 pb-0 mb-0 position-relative">
+                            <h5 class="color-main">Shell Script</h5>
+                        </div>
+                        <div class="card-body pb-0">
+                            <p class="fs-5 color-main">
+                                Shell script to simplify using
+                                fastapi framework
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End FastAPI Script -->
                 </div>
+                <!-- End Projects Content -->
             </section>
+            <!-- End Projects -->
+
+            <!-- Start Footer -->
             <footer id="footer">
                 <section id="contact-me"></section>
             </footer>
+            <!-- End Footer -->
         </main>
+        <!-- End Main -->
         <script src="js/bootstrap.bundle.min.js"></script>
     </body>
+    <!-- End Body -->
 </html>
