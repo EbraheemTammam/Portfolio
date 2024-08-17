@@ -32,9 +32,14 @@
 {
     background-color: white;
 }
+#footer
+{
+    border-top: 2px dashed white;
+}
 #contact
 {
-    border: 3px dashed white;
+    background-color: #985453;
+    border-radius: 2rem;
 }
 .contact-link
 {
@@ -108,7 +113,7 @@ p
     #participations .section-content,
     #projects .section-content
     {
-        padding: 2.0rem;
+        padding: 1.5rem;
     }
     #about .section-content,
     #skills .section-content
