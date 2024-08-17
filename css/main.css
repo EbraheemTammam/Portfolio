@@ -40,11 +40,6 @@
 {
     padding: 3rem;
 }
-.pivot-row
-{
-    border-top: 2px solid var(--main-color-light);
-    border-bottom: 2px solid var(--main-color-light);
-}
 .pivot-column
 {
     border-left: 2px solid var(--main-color-light);
@@ -115,14 +110,12 @@ p
     {
         border: 0;
     }
-    .pivot-row
+    .no-border
     {
-        border: 0;
+        border: 0 !important;
     }
-    .pivot-column.pivot-row {
-        display: none;
-    }
-    .skill-group {
+    .skill-group
+    {
         width: 100% !important;
         padding: 0rem !important;
         padding-top: 2rem !important;
