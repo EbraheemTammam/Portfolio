@@ -1,5 +1,9 @@
 /* Start Landing */
 
+.titles
+{
+    width: fit-content !important;
+}
 .my-name h1
 {
     font-size: 500%;
@@ -9,6 +13,24 @@
 {
     border-radius: 20px;
     width: fit-content;
+}
+.remote-repo
+{
+    border-radius: 50%;
+    width: 70px !important;
+    margin-left: 30% !important;
+}
+.remote-repo-2
+{
+    border-radius: 50%;
+    width: 70px !important;
+    margin-left: 30% !important;
+}
+.linked-in
+{
+    border-radius: 50%;
+    width: 70px !important;
+    margin-left: 30% !important;
 }
 
 /* End Landing */
@@ -59,6 +81,29 @@
     }
     .figure {
         width: 90% !important;
+    }
+    .remote-repo-collection
+    {
+        display: flex;
+        gap: 2rem;
+        width: 100% !important;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .remote-repo
+    {
+        height: 100% !important;
+        margin-left: 0 !important;
+    }
+    .remote-repo-2
+    {
+        height: 100% !important;
+        margin-left: 0 !important;
+    }
+    .linked-in
+    {
+        height: 100% !important;
+        margin-left: 0 !important;
     }
     .fun-line {
         flex-direction: column;
