@@ -99,6 +99,11 @@ p
 
     .section-content
     {
+        padding: 0.5rem;
+    }
+    #participations .section-content,
+    #projects .section-content
+    {
         padding: 2.0rem;
     }
     .card
