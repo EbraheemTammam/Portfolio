@@ -97,14 +97,15 @@ p
 {
     /* Start Section Content */
 
-    .section-content
-    {
-        padding: 0.5rem;
-    }
     #participations .section-content,
     #projects .section-content
     {
         padding: 2.0rem;
+    }
+    #about .section-content,
+    #skills .section-content
+    {
+        padding: 0.5rem;
     }
     .card
     {
