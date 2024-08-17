@@ -27,9 +27,22 @@
     background-color: var(--main-color-light);
 }
 #participations .section-header::after,
-#projects .section-header::after
+#projects .section-header::after,
+#contact .section-header::after
 {
     background-color: white;
+}
+#contact
+{
+    border: 3px dashed white;
+}
+.contact-link
+{
+    text-decoration: none;
+}
+.contact-link:hover
+{
+    color: #439cfc;
 }
 
 /* End Section Header */
@@ -122,11 +135,16 @@ p
         padding-bottom: 2rem !important;
         border-bottom: 2px solid var(--main-color-light);
     }
-    .skill-group-title span {
+    .skill-group-title span
+    {
         font-size: 1.5rem !important;
     }
     p {
         font-size: 1.3rem;
+    }
+    .contact-method
+    {
+        width: 100% !important;
     }
 
     /* End Section Content */
