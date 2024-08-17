@@ -1,0 +1,47 @@
+:root
+{
+    --main-color-light: #542120;
+}
+
+/* Start Skill Card */
+
+.skill-card
+{
+    padding: 1.5rem !important;
+    border-radius: 1rem;
+    border: 3px solid var(--main-color-light);
+    background-color: #DC9897;
+    width: 31% !important;
+}
+.skill-card-title span
+{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.skill label
+{
+    font-size: 1.3rem !important;
+}
+
+/* End Skill Card */
+
+/* Small Screen */
+@media (max-width: 47.9375em)
+{
+    #skills .section-header
+    {
+        margin-bottom: 2rem !important;
+    }
+    .skill-card
+    {
+        width: 100% !important;
+        padding: 1rem !important;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+        border-bottom: 2px solid var(--main-color-light);
+    }
+    .skill-card-title span
+    {
+        font-size: 1.5rem !important;
+    }
+}
