@@ -4,6 +4,12 @@
 {
     width: fit-content !important;
 }
+.titles span
+{
+    font-size: 250%;
+    color: #FEBAB9;
+    font-weight: bold;
+}
 .my-name h1
 {
     font-size: 500%;
@@ -13,24 +19,21 @@
 {
     border-radius: 20px;
     width: fit-content;
+    background-color: #FEBAB9;
 }
-.remote-repo
-{
-    border-radius: 50%;
-    width: 70px !important;
-    margin-left: 30% !important;
-}
-.remote-repo-2
-{
-    border-radius: 50%;
-    width: 70px !important;
-    margin-left: 30% !important;
-}
+.remote-repo,
+.remote-repo-2,
 .linked-in
 {
     border-radius: 50%;
     width: 70px !important;
     margin-left: 30% !important;
+}
+.remote-repo:hover,
+.remote-repo-2:hover,
+.linked-in:hover
+{
+    background-color: #FEBAB9;
 }
 
 /* End Landing */
@@ -39,10 +42,12 @@
 @media(max-width: 67.5em)
 {
     /* Start Landing */
-    .landing {
+    .landing
+    {
         padding: 0rem;
     }
-    .figure .icon-holder {
+    .figure .icon-holder
+    {
         width: 6rem !important;
         height: 6rem !important;
         margin: 1rem;
@@ -50,37 +55,48 @@
         padding-left: 1rem !important;
         padding-right: 1rem !important;
     }
-    .my-name h1 {
+    .my-name h1
+    {
         font-size: 350%;
     }
-    .description h2 {
+    .description h2
+    {
         font-size: large;
     }
     /* End Landing */
 }
+
 /* Small Screen */
-@media (max-width: 47.9375em) {
+@media (max-width: 47.9375em)
+{
     /* Start Landing */
-    .landing {
+    .landing
+    {
         padding: 1rem;
     }
-    .my-name h1 {
+    .my-name h1
+    {
         font-size: 4em;
     }
-    .description h2 {
+    .description h2
+    {
         font-size: 1.2em;
     }
-    .base-line h1 {
+    .base-line h1
+    {
         font-size: 2em;
     }
-    .titles {
+    .titles
+    {
         width: 100% !important;
     }
-    .description {
+    .description
+    {
         justify-content: center;
     }
-    .figure {
-        width: 90% !important;
+    .figure
+    {
+        display: none !important;
     }
     .remote-repo-collection
     {
@@ -90,16 +106,8 @@
         justify-content: center;
         margin-bottom: 2rem;
     }
-    .remote-repo
-    {
-        height: 100% !important;
-        margin-left: 0 !important;
-    }
-    .remote-repo-2
-    {
-        height: 100% !important;
-        margin-left: 0 !important;
-    }
+    .remote-repo,
+    .remote-repo-2,
     .linked-in
     {
         height: 100% !important;

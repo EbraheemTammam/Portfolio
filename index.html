@@ -23,6 +23,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
+    <!-- End Head -->
+
     <!-- Start Body -->
     <body>
         <!-- Start Header -->
@@ -50,13 +52,16 @@
         <!-- Start Landing -->
         <section class="landing background-color-main p-2 p-lg-5 courgette-regular">
             <!-- My Name & Figure -->
-            <div class="row gap-3 m-0 mt-lg-5 justify-content-center align-items-center">
+            <div class="row gap-3 m-0 mt-lg-3 justify-content-center align-items-center">
                 <div class="col-5 titles p-5 p-lg-0">
-                    <div class="my-name row">
+                    <div class="row m-0">
+                        <span class="exo-2-font">I am</span>
+                    </div>
+                    <div class="my-name row mt-3">
                         <h1 class="color-white">Ebraheem <br> Ahmed <br> Ebraheem</h1>
                     </div>
-                    <div class="description row mt-4 mt-lg-5 exo-2-font">
-                        <h2 class="color-main background-color-white p-3">Fresh Fullstack developer</h2>
+                    <div class="description row mt-4 exo-2-font">
+                        <h2 class="color-main p-3">Fresh Fullstack developer</h2>
                     </div>
                 </div>
                 <div class="col-2 remote-repo-collection">
@@ -105,38 +110,49 @@
                 <div class="row section-header m-0 courgette-regular">
                     <h1 class="color-main text-center">About</h1>
                 </div>
-                <div class="section-content row exo-2-font">
-                    <div class="row m-0 gap-5 p-4">
-                        <div class="col skill-card mx-5 rounded-pill">
-                            <div class="skill-card-title text-center">
-                                <span>Education</span>
-                            </div>
-                            <p class="fs-4 text-center mt-2">
-                                B.sc. Bachelors Degree <br>
-                                Computer Science
-                            </p>
-                        </div>
-                        <div class="col skill-card mx-5 rounded-pill">
-                            <div class="skill-card-title text-center">
-                                <span>Experience</span>
+                <!-- Start About section content -->
+                <div class="section-content row gap-5 exo-2-font align-items-center justify-content-center mt-5 mt-lg-0">
+                    <div class="col-10 col-lg-4 my-photo-container">
+                        <img src="images/my-photo.png" alt="my photo" class="img-fluid my-photo">
+                    </div>
+                    <!-- Start My Info -->
+                    <div class="col my-info">
+                        <!-- Education & Experience -->
+                        <div class="row m-0 gap-4 p-4 pt-0 pt-lg-4 justify-content-center">
+                            <div class="col skill-card rounded-pill">
+                                <div class="skill-card-title text-center">
+                                    <span>Education</span>
+                                </div>
                                 <p class="fs-4 text-center mt-2">
-                                    2+ Years <br>
-                                    Back-end Developer
+                                    B.sc. Bachelors Degree <br>
+                                    Computer Science
                                 </p>
                             </div>
+                            <div class="col skill-card rounded-pill">
+                                <div class="skill-card-title text-center">
+                                    <span>Experience</span>
+                                    <p class="fs-4 text-center mt-2">
+                                        2+ Years <br>
+                                        Back-end Developer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Summary -->
+                        <div class="row m-0">
+                            <p class="color-main mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                                sint reprehenderit explicabo nulla veritatis quia blanditiis illo
+                                reiciendis aut iste. Eligendi laborum autem, perferendis aspernatur
+                                et alias, soluta dolor neque magnam temporibus explicabo earum
+                                rerum laudantium praesentium dignissimos impedit illum. Voluptas
+                                dolores quisquam laboriosam ut amet at quidem deserunt autem!
+                            </p>
                         </div>
                     </div>
-                    <div class="row m-0">
-                        <p class="color-main mt-4 lh-lg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                            sint reprehenderit explicabo nulla veritatis quia blanditiis illo
-                            reiciendis aut iste. Eligendi laborum autem, perferendis aspernatur
-                            et alias, soluta dolor neque magnam temporibus explicabo earum
-                            rerum laudantium praesentium dignissimos impedit illum. Voluptas
-                            dolores quisquam laboriosam ut amet at quidem deserunt autem!
-                        </p>
-                    </div>
+                    <!-- End My Info -->
                 </div>
+                <!-- End About section content -->
             </section>
             <!-- End About -->
 
@@ -530,38 +546,35 @@
             <!-- End Projects -->
 
             <!-- Start Footer -->
-            <footer id="footer" class="background-color-main p-4 p-lg-5">
-                <section id="contact" class="exo-2-font pt-4">
+            <footer id="footer" class="background-color-main p-4 p-lg-5 row m-0 justify-content-center">
+                <!-- Start Contact section -->
+                <section id="contact" class="exo-2-font pt-4 col-11 col-lg-7">
                     <div class="row m-0 section-header m-0 courgette-regular">
                         <h1 class="color-white text-center">Contact Info</h1>
                     </div>
-                    <div class="row m-0 py-5 px-4">
-                        <div class="col-12 col-lg-4">
-                            <div class="contact-method row m-0 align-items-center justify-content-center">
-                                <img src="images/linkedin-2.svg" alt="linked-in" class="img-fluid col-3 col-lg-2">
-                                <a class="color-white fs-3 col-5 p-0 contact-link" href="https://www.linkedin.com/in/ebraheem-ahmed-8820a6193/" target="_blank">
-                                    Linked In
-                                </a>
-                            </div>
+                    <!-- Contact Methods -->
+                    <div class="row m-0 py-5 px-2 align-items-center justify-content-center">
+                        <div class="col-10 col-lg-3 contact-method">
+                            <img src="images/linkedin-2.svg" alt="linked-in" class="img-fluid contact-logo ms-5 ms-lg-0">
+                            <a class="color-white fs-5 p-0 contact-link" href="https://www.linkedin.com/in/ebraheem-ahmed-8820a6193/" target="_blank">
+                                Linked In
+                            </a>
                         </div>
-                        <div class="col-12 col-lg-4 mt-2 mt-lg-0">
-                            <div class="contact-method row m-0 align-items-center justify-content-center">
-                                <img src="images/email.svg" alt="email" class="img-fluid col-3 col-lg-2">
-                                <a class="color-white fs-3 col-5 p-0 contact-link" href="mailto:ebraheem20012020@gmail.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20inquire%20about...">
-                                    Email Me
-                                </a>
-                            </div>
+                        <div class="col-10 col-lg-3 contact-method mt-2 mt-lg-0">
+                            <img src="images/email.svg" alt="email" class="img-fluid contact-logo ms-5 ms-lg-0">
+                            <a class="color-white fs-5 col-5 p-0 contact-link" href="mailto:ebraheem20012020@gmail.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20inquire%20about...">
+                                Email Me
+                            </a>
                         </div>
-                        <div class="col-12 col-lg-4 mt-2 mt-lg-0">
-                            <div class="contact-method row m-0 align-items-center justify-content-center">
-                                <img src="images/youtube.svg" alt="youtube" class="img-fluid col-3 col-lg-2">
-                                <a class="color-white fs-3 col-5 p-0 contact-link" href="https://www.youtube.com/@EbraheemTammam" target="_blank">
-                                    Youtube
-                                </a>
-                            </div>
+                        <div class="col-10 col-lg-3 contact-method mt-2 mt-lg-0">
+                            <img src="images/youtube.svg" alt="youtube" class="img-fluid contact-logo ms-5 ms-lg-0">
+                            <a class="color-white fs-5 p-0 contact-link" href="https://www.youtube.com/@EbraheemTammam" target="_blank">
+                                Youtube
+                            </a>
                         </div>
                     </div>
                 </section>
+                <!-- End Contact section -->
             </footer>
             <!-- End Footer -->
         </main>
@@ -570,4 +583,3 @@
     </body>
     <!-- End Body -->
 </html>
-<!-- End Html -->
