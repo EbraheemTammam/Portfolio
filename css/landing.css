@@ -39,7 +39,7 @@
 }
 .my-name.typing-done
 {
-    border-right: none;
+    border-right: 0px;
     animation: none;
 }
 .description h2
@@ -82,9 +82,9 @@
         padding-left: 1rem !important;
         padding-right: 1rem !important;
     }
-    .my-name-container h1
+    .my-name
     {
-        font-size: 350%;
+        font-size: 350% !important;
     }
     .description h2
     {
