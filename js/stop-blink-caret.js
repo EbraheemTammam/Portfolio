@@ -1,5 +1,5 @@
 window.onload = function() {
-    const typewriter = document.querySelector('.my-name');
+    const typewriter = document.querySelector('.my-name-container');
 
     setTimeout(() => {
       typewriter.classList.add('typing-done');

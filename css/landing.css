@@ -10,10 +10,8 @@
     color: #FEBAB9;
     font-weight: bold;
 }
-.my-name
+.my-name-container
 {
-    font-size: 500%;
-    font-weight: bold;
     overflow: hidden;
     border-right: .15em solid #FEBAB9;
     white-space: nowrap;
@@ -32,15 +30,20 @@
     from, to { border-color: transparent }
     50% { border-color: #FEBAB9; }
 }
-.my-name::after
+.my-name-container::after
 {
     content: "";
     animation: blink-caret 0.75s step-end infinite;
 }
-.my-name.typing-done
+.my-name-container.typing-done
 {
     border-right: 0px;
     animation: none;
+}
+.my-name
+{
+    font-size: 500%;
+    font-weight: bold;
 }
 .description h2
 {
@@ -84,7 +87,7 @@
     }
     .my-name
     {
-        font-size: 300% !important;
+        font-size: 330% !important;
     }
     .description h2
     {
