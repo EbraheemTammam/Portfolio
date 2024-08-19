@@ -37,7 +37,7 @@
 }
 .my-name-container.typing-done
 {
-    border-right: 0px;
+    border-right: none;
     animation: none;
 }
 .my-name
