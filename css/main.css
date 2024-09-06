@@ -66,27 +66,21 @@
 {
     padding: 3rem;
 }
-.framework-logo-holder
-{
-    height: 30% !important;
-}
-.framework-logo
-{
-    height: 100% !important;
-}
-#projects .card
-{
-    height: 33rem !important;
-}
 p
 {
     font-size: 1.5rem;
     text-align: justify;
     hyphens: auto;
 }
-.icon {
+.icon
+{
     width: 90%;
     height: 90%;
+}
+.logo-icon
+{
+    height: 2rem !important;
+    width: auto;
 }
 
 /* End Section Content */
